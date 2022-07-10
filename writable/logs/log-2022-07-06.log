@@ -1,0 +1,72 @@
+CRITICAL - 2022-07-06 13:24:19 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Models\LoginUser.php on line 19.
+ 1 APPPATH\Controllers\InicioSesion.php(13): App\Models\LoginUser->buscarUsuario('juan@gmail.com', 'jian1234')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\InicioSesion->iniciarSesion()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioSesion))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 13:28:34 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+in APPPATH\Controllers\InicioSesion.php on line 14.
+ 1 APPPATH\Controllers\InicioSesion.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class CodeIgniter\\Database\\MySQLi\\Result could not be converted to int', 'APPPATH\\Controllers\\InicioSesion.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\InicioSesion->iniciarSesion()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioSesion))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 13:31:08 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\InicioSesion.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\InicioSesion->iniciarSesion()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioSesion))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 13:32:26 --> Array to string conversion
+in APPPATH\Controllers\InicioSesion.php on line 14.
+ 1 APPPATH\Controllers\InicioSesion.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\InicioSesion.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\InicioSesion->iniciarSesion()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioSesion))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 14:43:11 --> Invalid file: templates/modalo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/modalo.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('templates/modalo', [], true)
+ 3 APPPATH\Controllers\InicioSesion.php(17): view('templates/modalo')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\InicioSesion->iniciarSesion()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InicioSesion))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 15:07:50 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/Tema::IngresarTema
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/Tema::IngresarTema')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('ingresarTema')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('ingresarTema')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 15:07:54 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/Tema::IngresarTema
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/Tema::IngresarTema')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('ingresarTema')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('ingresarTema')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 15:12:01 --> Undefined array key "titulo"
+in APPPATH\Controllers\Tema.php on line 5.
+ 1 APPPATH\Controllers\Tema.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'APPPATH\\Controllers\\Tema.php', 5)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tema->IngresarTema()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tema))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 15:27:41 --> Unknown column 'titulo' in 'field list'
+CRITICAL - 2022-07-06 15:27:41 --> Unknown column 'titulo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `temas` (`titulo`, `descripcion`) VALUES (\'gljgk\', \'kjgksdug\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temas` (`titulo`, `descripcion`) VALUES (\'gljgk\', \'kjgksdug\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temas` (`titulo`, `descripcion`) VALUES (\'gljgk\', \'kjgksdug\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temas` (`titulo`, `descripcion`) VALUES (:titulo:, :descripcion:)', [...], false)
+ 5 APPPATH\Models\Temas.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tema.php(10): App\Models\Temas->IngresarTema('gljgk', 'kjgksdug')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tema->IngresarTema()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tema))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
